@@ -1,5 +1,5 @@
 Порядок запуска файлов
-1. generate.py генерирует - template_list с спишком шаблонов
+1. generate.py генерирует - template_list с спиcком шаблонов
 2. convert_template_list_to_dict - добавлет ключи к template_list и создает уже готовый template_map
 3. compress.py - сжимает пакет использую template_map и gzip.
 В текущий верссии создает 4 файла:
