@@ -76,7 +76,7 @@ def extract_patterns_optimized(pcap_file, pattern_len=8, max_templates=255, merg
 
 if __name__ == "__main__":
     result = extract_patterns_optimized(
-        'test_data/srvSCADA_2020-10-12.pcap',
+        'test_data/srvSCADA_2020-10-12.pcap', # PCAP для обработки
         pattern_len=8,
         max_templates=255,
         max_packets=7_500_000
